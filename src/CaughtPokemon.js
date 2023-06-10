@@ -1,8 +1,7 @@
 import React from "react";
 
-const CaughtPokemon = () => {
+const CaughtPokemon = (abilities) => {
   const data = new Date().toLocaleDateString();
-  const abilities = ["Anticipation", "Adaptability", "Run-Away"];
   return (
     <div>
       <ul>
