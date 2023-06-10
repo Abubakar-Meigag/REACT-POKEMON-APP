@@ -7,7 +7,7 @@ function App() {
     <div>
       <Logo appName="Beko's Pokedex" />
       <BestPokemon />
-      <CaughtPokemon />
+      <CaughtPokemon abilities = {["Anticipation", "Adaptability", "Run-Away"]} />
     </div>
   );
 }
